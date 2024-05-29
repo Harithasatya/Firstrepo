@@ -1,0 +1,40 @@
+An HTML document follows a specific structure that acts as the foundation for your web page:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link />
+</head>
+<body>
+  <!-- your web page content goes here -->
+</body>
+</html>
+Let's break it down:
+
+<!DOCTYPE html>: defines the document type and version of HTML being used (HTML5 in this case).
+
+<html lang="en"> and </html>: opening and closing tag of the root element that wraps the entire HTML content. The attribute lang="en" defines the language (in this case, USA English)
+
+<head> and </head>: opening and closing tag of the head element contains meta-information <meta > about the HTML document, the page title <title></title> you see in the browser tab, and link <link /> which defines a link between your HTML document and an external resources, like stylesheet, favicon, import and so on.
+
+<body> and </body> : opening and closing body tag encloses all the visible content of a web page, including text, images, links, forms, and other elements that users interact with.
+
+Note: All HTML elements have opening (< >) and closing (</ >) tags, except for self-closing (< > or < />) tags, which I will explain in more detail later.
+
+Comments
+Notice this <!-- your web page content goes here --> in the above html basic structure, it's called comments. Comments are used to add explanatory notes that are not displayed when the web page is viewed in a browser. They are useful for documenting your code, providing information to other developers, or temporarily excluding specific parts of the code. You can create comment using this tag <!-- your comment goes here -->.
+
+There are:
+
+Single-line comment: <!-- This is a single-line comment -->
+Multi-line comment: <!-- This is a multi-line comment. It can span multiple lines. All content within the comment block will be ignored by the browser. -->
+Tags and Elements
+HTML uses tags to define different elements on a webpage. Tags are enclosed in angle brackets (< >). There are opening (< >) and closing (</ >) tags, and self-closing (< > or < />) tag. Here are a few examples:
+
+Headings
+<h1>This is a Heading 1</h1>
+<h2>This is a Heading 2</h2>
+<!-- ... up to <h6> -->
